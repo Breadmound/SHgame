@@ -1,0 +1,23 @@
+INDEX
+NAME COMMENTS
+PARAMETERS_exs(v,-,+),type(loc,obj,tlk),*
+LOOK/LOC TEXT_LOC TEXT
+LOOK/LOC OBJS_LOC SPAWN OBJS
+LOOK/LOC ACTS_LOC SPAWN ACTS
+TAKE TEXT
+TAKE OBJS
+TAKE ACTS
+USE WITH
+USE TEXTS
+USE OBJS
+USE ACTS
+DIALOGS
+DIA OBJS_next choice after choice
+DIA ACTS_next dia after choice
+END
+
+(-1,0,1)
+*
+obj: sleep_–
+tlk: dia^page^nxtdiaforchoice_nxtdiafordias
+all: –_–_counter^cntame_cntobjs_cntacts
